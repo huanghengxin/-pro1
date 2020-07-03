@@ -1,0 +1,167 @@
+/* 1L完成 */
+#lo1{width: 41.75px;height: 50px;}
+#topimg{width: 41.75px;height: 50px;}
+.position-fixed{z-index: 1;}
+#box{padding: 0 !important;}
+.bg-light{background-color: transparent!important;}
+#bt{background-color: transparent;border: 0;outline: none;padding: 0 !important;}
+#d1{background-color: #f4f4f4!important; opacity: 0.9;}
+.white:hover{background-color: #fff;}
+.nav-link{height: 50px;line-height: 34px;}
+#p1{width: 250px;margin-left: 45px;font-size: 14px;color: #7c7c7c;}
+.lianxibt{width: 120px;height: 45px;background-color: #E09A0E;border: 0;color: #fff;font-size: 14px;}
+@media (min-width:576px) {
+	.position-fixed{background-color: #f4f4f4;height: 60px;}
+	#topimg{padding-top: 5px;margin-right: 50%;}
+	#bt{margin-top: 15px;}
+}
+@media (min-width:992px) {
+	.position-fixed{background-color: transparent;}
+	#topimg{padding-top: 0;margin-right: 0;}
+	#bt{margin-left: 310px;margin-top: 0;}
+}
+
+
+
+/* 2L完成 */
+#mt-140{margin-top: 140px;}
+.fz-28{font-size: 28px;color: #666666;}
+.fz-28>a{color: #666666;}
+.fz-28>a:hover{text-decoration: none;}
+.fz-14{font-size: 14px;color: #999999;}
+.fz-14>a{color: #999999;}
+.fz-14>a:hover{text-decoration: none;}
+.d-block{
+	height: 46px;
+	border: 1px solid transparent;
+	text-align: center;
+	line-height: 30px;
+}
+.d-block:hover{
+	text-decoration: none;
+	color: #e09a0e !important;
+	position: absolute;
+	top: -5px;
+}
+#suoyou{
+	border-bottom: 2px solid rgba(224,154,14,1);
+	color: #e09a0e !important; */
+}
+.aa{
+	position: relative;
+	margin-right: 2px;
+	padding-right: 0 !important;
+}
+.aa:hover{
+	border-bottom: 2px solid rgba(224,154,14,1);
+}
+@media (min-width:576px) {
+	#mt-180{margin-top: 48px;}
+	.aa{padding-left: 0;}
+	.d-block{width: 100%;}
+}
+@media (min-width:992px) {
+	#mt-180{margin-top: 180px;}
+	.aa{padding-left: 0;}
+	.d-block{width: 100%;}
+}
+
+
+
+
+
+/* 3L差图片动画效果JS */
+.suofang:hover{transform: scale(1.01);}
+.h4{margin-top: 12px;}
+.h4 a{color: #666666;}
+.h4 a:hover{text-decoration: none;}
+.text-truncate{
+	width: 335px;
+	height: 20px;
+	color: #999999;
+	font-size: 14px;
+	margin-top: 12px;
+}
+@media (min-width:576px) {
+	.img_a{width: 70%;}
+}
+@media (min-width:1200px) {
+	.img_a{width: 365px;}
+}
+
+
+
+/* 4L显示更多JS */
+#lastimg{display: none;}
+#lastimg:target{display: block;}
+#btn_last{
+	display: block;
+	width: 195px;height: 40px;
+	border: 1px solid #e8bc60;
+	color: #bf943c;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	margin: 120px auto 120px auto;
+	text-decoration: none;
+}
+/* #btn_last:active{display: none;} */
+@media (min-width:576px) {
+	#btn_last{width: 100%;}
+}
+@media (min-width:992px) {
+	#btn_last{width: 195px;}
+}
+
+
+
+/* 底部完成 */
+#footer{
+	width: 100%;
+	height: 230px;
+	margin-left: 0 !important;
+	background-color: rgb(244,244,244);
+}
+#footer .text-muted{text-decoration: none;}
+#footer div{margin: auto 0;}
+.xiaologo{width: 25px;height: 30px;}
+#footer2{
+	width: 100%;
+	height: 230px;
+	margin-left: 0 !important;
+	background-color: rgb(244,244,244);
+	text-align: center;
+}
+#footer2_1{padding-top: 85px;}
+#footer2 p{margin-bottom: 12px;}
+@media (min-width:576px) {
+	#footer{display: none;}
+	#footer2{display: block;}
+}
+@media (min-width:992px) {
+	#footer{display: flex;}
+	#footer2{display: none;}
+}
+
+
+
+
+
+
+/* 返回顶部完成,一定高度隐藏一定高度显示未完成 */
+.top{
+	width: 34px;height: 34px;background-color: #5b5b5b;
+	position: fixed;
+	top: 90%;
+	right: 2%;
+	text-align: center;
+	color: white;
+	z-index: 2;
+}
+.top:hover{text-decoration: none;color: white;}
+/* @media (max-height:1000px) {
+	.top{display: none;}
+}
+@media (min-height:1002px ) {
+	.top{display: block;}
+} */

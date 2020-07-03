@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		.box{
+			height: 400px;
+			width: 100px;
+			background-color: red;
+			float: right;
+			display: none;
+			
+		}
+		@keyframes mymove{
+			0%{transform: translate(100%,0);},
+			100%{transform: translate(,0);}
+		}
+		.box1{
+			animation: mymove 1s infinite;
+			animation-iteration-count:1;
+			display: block;
+		}
+	</style>
+	<body>
+		<button onclick="show()">dd</button>
+		<button onclick="show1()">aa</button>
+		<div class="box" id="box">
+			<ul>
+				<li>11</li>
+				<li>22</li>
+				<li>33</li>
+				<li>44</li>
+			</ul>
+		</div>
+		
+		<div style="width: 100%;text-align: center;">
+			<img src="biaoqiansheji.jpg">
+		</div>
+	</body>
+	<script>
+		function show(){
+			var box = document.getElementById("box");
+			box.classList.add("box1");
+		}
+		function show1(){
+			var box = document.getElementById("box");
+			box.classList.remove("box1");
+		}
+	</script>
+</html>
